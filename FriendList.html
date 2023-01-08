@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship-Zone: Friend List</title>
+    <style>
+        body {
+            margin-left: 50px;
+            background-image: url("Friends.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        button {
+            color: white;
+            background-color: red;
+            border: 2px solid white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: white;
+            color: red;
+        }
+        
+        .registerlink button {
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 30px;
+            padding: 16px 32px;
+        }
+        
+        .infosec button {
+            font-size: 15px;
+        }
+        
+        .infosec table {
+            border: thick solid red;
+            width: 90%;
+            align-content: center;
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .infosec table th {
+            border: thick solid red;
+            padding: 10px;
+        }
+        
+        .infosec table td {
+            border: thick solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="registerlink">
+        <a href="RegistrationForm.html">
+            <button> Register </button>
+        </a>
+    </div>
+    <div class="infosec">
+        <h2>
+            Details of Users :
+        </h2>
+        <table>
+            <thead>
+                <th>
+                    Name
+                </th>
+                <th>
+                    About
+                </th>
+                <th>
+                    Send Request
+                </th>
+                <th>
+                    Contact
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">
+                        Marriya
+                    </td>
+                    <td rowspan="2">
+                        Adventerous and like to participate in bungee jumping and sky diving.
+                    </td>
+                    <td rowspan="2">
+                        <button> Friendship </button>
+                    </td>
+                    <td>
+                        <a href="tel:9876543210">
+                              98765 43210
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="mailto:marriya@yourcompany.com">
+                              marriya@yourcompany.com
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        Adams
+                    </td>
+                    <td rowspan="2">
+                        Likes music, and reading books
+                    </td>
+                    <td>
+                        <button> Friendship </button>
+                    </td>
+                    <td>
+                        <a href="tel:5555555555">
+                            55555 55555
+                      </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button> Dating </button>
+                    </td>
+                    <td>
+                        <a href="mailto:marriya@yourcompany.com">
+                            adams@yourcompany.com
+                      </a>
+                    </td>
+                </tr </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship-Zone: Registration Form</title>
+    <style>
+        body {
+            margin-left: 50px;
+            background-image: url("Friends.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+            text-align: left;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formbox">
+        <center>
+            <h1>
+                Registration Form
+            </h1>
+            <h2>
+                Add your details below to register for Friendship-Zone
+            </h2>
+        </center>
+        <form action="" method="">
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname" minlength="3"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value=""><br>
+            <label for=" age ">Age:</label><br>
+            <input type="number" id="age " name="age " min="18" max="113"><br>
+            <label for=" bday ">Birth Day:</label><br>
+            <input type="date" id="bday " name="bday "><br>
+            <label for=" gender ">Gender:</label><br>
+            <input type="radio" id="genderM " name="gender " value="M">Male
+            <input type="radio" id="genderF " name="gender " value="F">Female<br>
+            <label for="about">About:</label><br>
+            <textarea id="about" name="about"></textarea><br>
+            <label for=" phone ">Phone:</label><br>
+            <input type="tel" id="phone " name="phone "><br>
+            <label for=" interest ">Gender:</label><br>
+            <input type="radio" id="interestF " name="interest " value="F">Friendship
+            <input type="radio" id="interestD " name="interest " value="D">Dating<br>
+            <label for=" attach ">Attachment:</label><br>
+            <input type="file" id="attach " name="attach "><br>
+            <br>
+            <center>
+                <button type="submit">Register as User</button>
+                <button type="submit">Register as Admin</button>
+            </center>
+    </div>
+</body>
+
+</html>
